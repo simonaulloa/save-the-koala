@@ -2,3 +2,41 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+.first-section{
+	background-image: url(../img/portada.jpg);
+	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+	height: 100vh;	
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10%;
+}
+.caja1{
+	margin-top: 20%;
+	color: white;
+}
+.caja1a{
+	color: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #203803;
+    border-color: #203803;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0e1901;
+    border-color: #0e1901;
+}
+.third-section{
+	background-color: green;
+}
+.quarter-section{
+	background-image: url(../img/all.jpg);
+	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
+	background-size: cover;
+	height: 100vh;	
+}
