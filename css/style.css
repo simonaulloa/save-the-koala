@@ -2,7 +2,7 @@
 wood brown: A89F68;
 army green: 41521F;
 */
-
+/*primera seccion*/
 .first-section{
 	background-image: url(../img/portada.jpg);
 	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
@@ -13,6 +13,10 @@ army green: 41521F;
     background-color: transparent;
     border-color: transparent;
     margin-right: 10%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+     text-shadow: 1px 2px #1b1b1c; /* sombra al texto */
 }
 .caja1{
 	margin-top: 20%;
@@ -31,12 +35,48 @@ army green: 41521F;
     background-color: #0e1901;
     border-color: #0e1901;
 }
-.third-section{
-	background-color: green;
+/*segunda seccion*/
+.caja2 img{
+	margin-top: 10%;
+	margin-bottom: 30%;
+	color: white;
 }
+.caja2A{
+	margin-top: 20%;
+}
+.caja2A .tittle-second{
+	color: #a89f68;
+}
+
+/*tercera seccion*/
+.third-section{
+	background-color: #a89f68;
+}
+.caja3{
+	margin-top: 20%;
+    margin-bottom: 20%;
+	color: white;
+}
+.caja3A img{
+	margin-top: 20%;
+    margin-bottom: 20%;
+    border: 10px solid white;
+}
+.caja3 h3{
+	color: #41521f
+} 
+/*cuarta seccion*/
 .quarter-section{
 	background-image: url(../img/all.jpg);
 	width: 100%; /*esto quieredecir que se utilizara el 100% del alto de la pantalla*/
 	background-size: cover;
-	height: 100vh;	
+	height: 100vh;
+	color: white;	
+}
+.caja4{
+	margin-top: 20%;
+    margin-bottom: 20%;
+}
+.caja4 .no{
+	color: white;
 }
